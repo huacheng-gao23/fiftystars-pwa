@@ -53,7 +53,7 @@ export default function Home() {
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            We'll help you navigate into the city
+            We&apos;ll help you navigate into the city
           </p>
         </a>
 
@@ -87,7 +87,7 @@ export default function Home() {
             </span>
           </h2>
           <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Hungry? We'll show you where the locals eat
+            Hungry? We&apos;ll show you where the locals eat
           </p>
         </a>
 
