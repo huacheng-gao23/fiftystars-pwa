@@ -15,7 +15,7 @@ export default function NavPage({ navButtonArray, header }: { navButtonArray: Na
 
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-20">
+    <main className="flex flex-col items-center justify-between p-20">
       <div className="fixed top-0 left-0 px-5 py-5">
         <button className="hover:bg-sky-700" onClick={() => router.back()}>&lt;-Back</button>
       </div>

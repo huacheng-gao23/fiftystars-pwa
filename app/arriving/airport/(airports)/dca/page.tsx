@@ -17,9 +17,8 @@ const NavButtonInfo = [
 export default function Home() {
 
   return (
-    <NavPage
-      navButtonArray={NavButtonInfo}
-      header="Which airport?"
-    />
+    <div>
+      DCA
+    </div>
   );
 }
