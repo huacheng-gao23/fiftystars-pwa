@@ -1,5 +1,6 @@
 "use client";
 import NavPage from "components/NavPage";
+import LocationWrapper from "components/LocationWrapper";
 
 const NavButtonInfo = [
   {
@@ -17,9 +18,12 @@ const NavButtonInfo = [
 export default function Home() {
 
   return (
-    <NavPage
-      navButtonArray={NavButtonInfo}
-      header="Which airport?"
-    />
+    <>
+      <NavPage
+        navButtonArray={NavButtonInfo}
+        header="Which airport?"
+      />
+      <LocationWrapper/>
+    </>
   );
 }
