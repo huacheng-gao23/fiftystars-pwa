@@ -5,7 +5,7 @@ const NavButtonInfo = [
   {
     header: "Airport",
     subheader: "Landing at IAD or DCA?",
-    link: "/arriving"
+    link: "/arriving/airport"
   },
   {
     header: "Train",
@@ -22,6 +22,11 @@ const NavButtonInfo = [
 export default function Home() {
 
   return (
-    <NavPage navButtonArray={NavButtonInfo}></NavPage>
+    <>
+      <NavPage
+        navButtonArray={NavButtonInfo}
+        header="Where are you coming from?"
+      />
+    </>
   );
 }
