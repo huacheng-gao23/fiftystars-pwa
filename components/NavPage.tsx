@@ -40,7 +40,7 @@ export default function NavPage({ navButtonArray, header }: { navButtonArray: Na
         </div>
       </div>
 
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
+      <div className="grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
         <div>
           <h1 className={`mb-3 text-3xl font-semibold`}>
             {header}
