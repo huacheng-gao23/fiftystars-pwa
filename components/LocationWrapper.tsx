@@ -43,7 +43,7 @@ export default function LocationWrapper() {
     <>
       <div className="flex flex-col items-center justify-between">
         <p className="font-bold p-5">
-          Don't know? Check which airport is closer
+          Don&apos;t know? Check which airport is closer
         </p>
         <div className="flex items-center justify-center border border-solid border-slate-800 rounded-lg p-5"
           onClick={() => { setClicked(true) }}
