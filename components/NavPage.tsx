@@ -2,6 +2,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { useRouter } from "next/navigation"
+import HomeIcon from '@mui/icons-material/Home';
 
 
 interface NavButton {
@@ -18,6 +19,9 @@ export default function NavPage({ navButtonArray, header }: { navButtonArray: Na
     <main className="flex flex-col items-center justify-between p-20">
       <div className="fixed top-0 left-0 px-5 py-5">
         <button className="hover:bg-sky-700" onClick={() => router.back()}>&lt;-Back</button>
+      </div>
+      <div className="fixed top-0 right-0 px-5 py-5">
+        <button className="hover:bg-sky-700" onClick={() => router.push("/")}><HomeIcon fontSize="small" /></button>
       </div>
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
         <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
